@@ -1,0 +1,92 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(224, 220, 220);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.shopping-cart {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.add-item-form {
+  margin-top: 20px;
+}
+
+.add-item-form input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.add-item-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.product-item {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.product-item:hover {
+  background-color: #eee;
+}
+input {
+  margin-right: 10px;
+}
+input,
+button {
+  border: 1px solid rgb(80, 78, 78);
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  background-color: rgb(41, 40, 40);
+  color: rgb(228, 225, 225);
+}
+
+button:hover {
+  background-color: #ccc;
+  color: rgb(10, 10, 10);
+}
+
+input:focus {
+  outline: 2px solid #000;
+}
+
+@media screen and (max-width: 768px) {
+  .shopping-cart {
+    width: 100%;
+  }
+
+  .product-item {
+    font-size: 14px;
+  }
+}
